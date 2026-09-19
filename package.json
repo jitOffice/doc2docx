@@ -1,0 +1,19 @@
+{
+  "name": "@jitword/doc2docx",
+  "version": "0.1.5",
+  "description": "Convert legacy Word 97-2003 binary documents (.doc) to OOXML (.docx)",
+  "keywords": ["doc", "docx", "word", "ooxml", "converter", "legacy-word"],
+  "license": "MIT",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "LICENSE", "README.md"],
+  "engines": { "node": ">=18" },
+  "optionalDependencies": {
+    "@jitword/doc2docx-linux-x64": "0.1.0",
+    "@jitword/doc2docx-linux-arm64": "0.1.0",
+    "@jitword/doc2docx-win32-x64": "0.1.0",
+    "@jitword/doc2docx-darwin-arm64": "0.1.0",
+    "@jitword/doc2docx-darwin-x64": "0.1.0"
+  },
+  "publishConfig": { "access": "public" }
+}
